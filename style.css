@@ -21,6 +21,8 @@ body{
     justify-content: flex-start;
 }
 
+/*header (sidebar) */
+
 header{
     background-color: transparent;
     display: flex;
@@ -30,15 +32,16 @@ header{
     padding: 10px;
 }
 
+.logo{
+    margin-right: 10px;
+}
+
 .title h1{
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.logo{
-    margin-right: 10px;
-}
-
+/* nav */
 .nav {
     background-color:transparent;
 }
@@ -59,8 +62,11 @@ header{
     color: blue;
 }
 
-.links {
-    background-color:transparent;
+/*itens(footer)*/
+
+.links{
+    display: flex;
+    flex-direction: column;
 }
 
 .links a{
@@ -94,14 +100,76 @@ main img{
 
 @media (max-width: 768px) {
     body {
-      background-color:salmon;
+        background-color: salmon;
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
+
+    header{
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: unset;
+        padding: 10px;
+    }
+
+
+
+    .title{
+        display: none;
+        text-align: center;
+    }
+
+    .nav{
+        display: none;
+    }
+
+
+
+
+    .itens {
+        display: flex;
+        flex-direction: column;
+        background-color:transparent;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .itens a{
+        display: none;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+    
+    }
+
+    .links{
+        display: none;
+        flex-direction: column;
+    }
+
+    .links a{
+
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        padding: 20px;
+    }
+
+
   }
+
+  
 
 
   
 @media (max-width: 480px) {
     body {
       background-color: aqua;
+      
     }
   }
