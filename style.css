@@ -24,7 +24,7 @@ body{
 
 /*header (sidebar) */
 
-.header{
+header{
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -40,9 +40,9 @@ body{
     height: 100vh;
 }
 
-    .header .menu-btn{
-        display: none;
-    }
+header .menu-btn{
+    display: none;
+}
 
 
 .title{
@@ -52,6 +52,15 @@ body{
 /* nav */
 .nav {
     background-color:transparent;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover{
+    color: blue;
 }
 
 .itens {
@@ -100,12 +109,40 @@ main h1{
     margin-bottom: 20px;
 }
 
-main img{
+main .logobig{
     max-width: 100%;
 }
 
+main .wrapper{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-9{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.gallery-4{
+    display: grid;
+    grid-template-columns: auto auto;
+}
 
 
+@media (max-width: 1104px) {
+
+    main .wrapper{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .gallery-9{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+}
 @media (max-width: 768px) {
     
     html{
@@ -122,7 +159,7 @@ main img{
         }
 
 
-    .header{
+    header{
         background-color: white;
         display: block;
         height: unset;
@@ -131,7 +168,7 @@ main img{
         top: 0;
     }
     
-    .header .menu{
+    header .menu{
         display: none;
         flex-direction: column;
         justify-content: space-between;
@@ -140,7 +177,7 @@ main img{
         text-align: center;
     }
 
-    .header .menu-icon{
+    header .menu-icon{
         padding: 28px 20px;
         position: relative;
         float: right;
@@ -148,7 +185,7 @@ main img{
 
     }
 
-    .header .menu-icon .nav-icon{
+    header .menu-icon .nav-icon{
         display: block;
         height: 2px;
         width: 18px;
@@ -157,18 +194,7 @@ main img{
         transition:background .2s ease-out;
     }
 
-    .header .menu-icon .nav-icon:before{
-        background: black;
-        content: "";
-        display: block;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        transition: all .2 ease-out;
-        top: 5px;
-    }
-
-    .header .menu-icon .nav-icon:active{
+    header .menu-icon .nav-icon:before{
         background: black;
         content: "";
         display: block;
@@ -179,11 +205,48 @@ main img{
         top: -5px;
     }
 
-    .header .menu-btn{
+    header .menu-icon .nav-icon:active{
+        background: black;
+        content: "";
+        display: block;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        transition: all .2 ease-out;
+        top: 5px;
+    }
+
+    header .menu-btn{
         display: none;
     }
     
-    .header .menu-btn:checked ~ .menu{
+    header .menu-btn:checked ~ .menu{
         display: unset;
     }
 
+    header .menu .itens{
+        display: none;
+    }
+
+    header .menu .title{
+        margin-top: 10px;
+    }
+
+    header .menu .title p{
+        margin-top: 10px;
+    }
+
+    header .menu .links li a{
+        display: block;
+        padding: 10px;
+    }
+
+    header .menu .nav{
+        margin: 90px 0 90px 0;
+    }
+
+    header .menu .nav a{
+        display: block;
+        padding: 10px;
+    }
+}
