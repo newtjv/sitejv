@@ -69,6 +69,7 @@ header .menu-btn{
     flex-direction: column;
     background-color:transparent;
     margin-bottom: 20px;
+    list-style: none;
 }
 
 .itens a{
