@@ -106,11 +106,24 @@ main {
     overflow: auto;
     padding: 10px;
 }
-main h1{
+main .wrapper h1{
     text-align: center;
     margin-bottom: 20px;
     margin-top: 50px;
 }
+
+main .wrapper h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+main .wrapper h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
 
 main img{
     max-width: 100%;
@@ -127,6 +140,14 @@ main .wrapper{
 main .wrapper p{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+main a{
+    text-decoration: none;
+}
+
+main a:hover{
+color: blue;
 }
 
 .gallery-9{
