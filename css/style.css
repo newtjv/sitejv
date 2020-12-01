@@ -157,7 +157,7 @@ color: blue;
 
 .gallery-9{
     display: grid;
-    width: 700px;
+    width: 800px;
     grid-template-columns: auto auto auto;
 }
 
@@ -167,7 +167,7 @@ color: blue;
 
 .gallery-4{
     display: grid;
-    width: 700px;
+    width: 800px;
     grid-template-columns: auto auto;
 }
 
@@ -194,7 +194,7 @@ color: blue;
 
 .text{
     display: block;
-    width: 300px;
+    width: 200px;
     margin-right: 20px;
 }
 
