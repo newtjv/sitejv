@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans, sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, p{
+    color: white;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: blue;
+}
+
+
+
+/*body*/
+
+body{
+    background-color: black;
+}
+
+/*header (sidebar) */
+
+header{
+    width: 300px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    position: fixed;
+    height: 100vh;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    padding: 10px;
+    height: 70px;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 70px);
+    padding: 10px;
+    background-color: black;
+}
+
+.icon{
+    display: none;
+    font-size: 30pt;
+    color: white;
+}
+
+.title{
+     margin-bottom: 20px;
+}
+
+/* nav */
+.nav {
+    background-color:transparent;
+}
+
+.nav a{
+    font-weight: 700;
+    font-size: 14pt;
+}
+
+.nav li a{
+    font-weight: 400;
+    font-size: 12pt;
+}
+
+.itens {
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+
+
+/*itens(footer)*/
+
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.links li a{
+    font-weight: 700;
+    font-size: 14pt;
+}
+
+
+
+/*main*/
+
+main {
+    background-color: transparent;
+    flex: 1;
+    margin-left: 300px;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+.wrapper h1{
+    text-align: unset;
+    margin-bottom: 20px;
+}
+
+main .wrapper{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+main li{
+    display: block;
+    list-style: none;
+}
+
+.wrapper li a{
+    font-weight: 700;
+    font-size: 14pt;
+    padding: 10px 0;    
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    display: block;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.text p{
+    font-size: 10pt;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text a{
+    font-weight: 700;
+    font-size: 14pt;
+    padding: 10px 0;
+}
+
+main img{
+    max-width: 100%;
+}
+
+
+.gallery-9{
+    display: grid;
+    width: 800px;
+    grid-template-columns: auto auto auto;
+}
+
+.gallery-9 img{
+    padding: 7px;
+}
+
+.gallery-4{
+    display: grid;
+    width: 800px;
+    grid-template-columns: auto auto;
+}
+
+.gallery-4 img{
+    padding: 2px;
+}
+
+.gallery-2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.picsobre{
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Form */
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+form p{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 13pt;
+}
+
+input{
+    display: block;
+    background-color: black;
+    outline: white solid 2px;
+    outline-offset: -2px;
+    color: white;
+    border-width: 3px;
+    width: auto;
+    height: 40px;
+    text-indent: 10px;
+    border-color: unset;
+    border-style: unset;
+    margin-bottom: 20px;
+    font-size: 12pt;
+}
+
+.submit{
+    background-color: white;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 13pt;
+    color: black;
+}
+
+
+.submit:hover{
+    background-color: blue;
+    color: white;
+    outline: unset;
+}
+textarea{
+    display: block;
+    width: auto;
+    color: white;
+    background-color: black;
+    outline: white solid 2px;
+    outline-offset: -2px;
+    text-indent: 5px;
+    font-size: 12pt;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+@media (max-width: 1304px) {
+
+    main .wrapper{
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gallery-9{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+    
+    header{
+        width: 100%;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        position: fixed;
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    
+    .bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: transparent;
+        padding: 10px;
+        height: 70px;
+    }
+    
+    #menu{
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        height: calc(100vh - 70px);
+        padding: 10px;
+        text-align: center;
+        background-color: transparent;
+    }
+    
+    .icon{
+        display: block;
+        font-size: 30pt;
+        color: white;
+    }
+    
+    .title{
+         margin-bottom: 20px;
+    }
+    
+    /* nav */
+    .nav {
+        background-color:transparent;
+    }
+    
+    .nav a{
+        display: block;
+        padding: 15px;
+
+    }
+    
+    
+    .itens {
+        display: none;
+        flex-direction: column;
+        background-color:transparent;
+        margin-bottom: 20px;
+        list-style: none;
+    }
+    
+    .itens a{
+        text-decoration: none;
+    }
+    
+    /*itens(footer)*/
+    
+    .links{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 55px;
+    }
+    
+    .links a{
+        display: block;
+        padding: 10px;
+    }
+    
+
+    main {
+        background-color: transparent;
+        flex: 1;
+        margin-left: unset;
+        padding: 10px;
+    }
+
+    main h1{
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: unset;
+    }
+
+    .block{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .text{
+        display: block;
+        width: unset;
+        margin-right: unset;
+    }
+
+    .gallery-9{
+        display: grid;
+        width: unset;
+        grid-template-columns: auto auto auto;
+    }
+
+    .gallery-4{
+        display: grid;
+        width: unset;
+        grid-template-columns: auto auto;
+    }
+}
