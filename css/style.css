@@ -11,6 +11,22 @@ html{
     height: 100%;
 }
 
+h1, h2, h3, h4, h5, p{
+    color: white;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: blue;
+}
+
+
+
 
 /*body*/
 
@@ -50,13 +66,6 @@ header .menu-btn{
      margin-bottom: 20px;
 }
 
-.title h1{
-    color: white;
-}
-
-.title p{
-    color: white;
-}
 
 /* nav */
 .nav {
@@ -64,13 +73,15 @@ header .menu-btn{
 }
 
 .nav a{
-    text-decoration: none;
-    color: white;
+    font-weight: 700;
+    font-size: 14pt;
 }
 
-.nav a:hover{
-    color: blue;
+.nav li a{
+    font-weight: 400;
+    font-size: 12pt;
 }
+
 
 .itens {
     display: flex;
@@ -80,14 +91,6 @@ header .menu-btn{
     list-style: none;
 }
 
-.itens a{
-    text-decoration: none;
-    color: white;
-}
-
-.itens a:hover{
-    color: blue;
-}
 
 /*itens(footer)*/
 
@@ -96,14 +99,12 @@ header .menu-btn{
     flex-direction: column;
 }
 
-.links a{
-    text-decoration: none;
-    color: white;
+.links li a{
+    font-weight: 700;
+    font-size: 14pt;
 }
 
-.links a:hover{
-    color: blue;
-}
+
 
 
 /*main*/
@@ -114,36 +115,10 @@ main {
     overflow: auto;
     padding: 10px;
 }
-main .wrapper h1{
+.wrapper h1{
     text-align: unset;
     margin-bottom: 20px;
     margin-top: 50px;
-    color: white;
-}
-
-
-main .wrapper h3{
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 50px;
-    color: white;
-}
-
-.wrapper h2{
-    color: white;
-}
-
-.wrapper h4{
-    color: white;
-}
-
-.wrapper p{
-    font-size: 10pt;
-    color: white;
-}
-
-main img{
-    max-width: 100%;
 }
 
 main .wrapper{
@@ -163,21 +138,44 @@ main li{
 }
 
 
-.wrapper a{
+.wrapper li a{
+    font-weight: 700;
+    font-size: 14pt;
+    padding: 10px 0;    
+}
+
+
+.block{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
     display: block;
-    text-decoration: none;
-    color: white;    
-}
-
-main .wrapper ul li a:hover{
-    color: blue;    
+    width: 200px;
+    margin-right: 20px;
 }
 
 
-
-main a:hover{
-color: blue;
+.text p{
+    font-size: 10pt;
 }
+
+.text a{
+    font-weight: 700;
+    font-size: 14pt;
+    padding: 10px 0;
+}
+
+.text a:hover{
+    color: blue;
+}
+
+main img{
+    max-width: 100%;
+}
+
+
 
 .gallery-9{
     display: grid;
@@ -211,16 +209,8 @@ color: blue;
     margin-right: auto;
 }
 
-.block{
-    display: flex;
-    flex-direction: row;
-}
 
-.text{
-    display: block;
-    width: 200px;
-    margin-right: 20px;
-}
+
 
 
 @media (max-width: 1304px) {
@@ -251,11 +241,11 @@ color: blue;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        }
+    }
 
 
     header{
-        background-color:black;
+        background-color:magenta;
         display: block;
         height: unset;
         padding: 10px;
@@ -263,14 +253,14 @@ color: blue;
         top: 0;
     }
     
-    header .menu{
+    .menu{
         display: none;
         flex-direction: column;
         justify-content: space-between;
         height: unset;
         transition:display .2s ease-out;
         text-align: center;
-        background: black;
+        background: greenyellow;
     }
 
     header .menu-icon{
