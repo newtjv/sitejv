@@ -30,7 +30,11 @@ a:hover{
 /*body*/
 
 body{
+    display: flex;
     background-color: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
 }
 
 /*header (sidebar) */
@@ -135,6 +139,7 @@ main {
     margin-left: 300px;
     margin-top: 70px;
     padding: 10px;
+    height: calc(100% - 110px);
 }
 
 .wrapper h1{
@@ -279,10 +284,14 @@ textarea{
 
 footer{
     background-color: transparent;
-    flex: 1;
-    margin-left: 300px;
     padding: 10px;
-    text-align: end;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+footer p{
+    font-size: 10pt;
 }
 
 
@@ -369,7 +378,7 @@ footer{
         text-decoration: none;
     }
     
-    /*itens(footer)*/
+    /*itens*/
     
     .links{
         display: flex;
@@ -417,5 +426,13 @@ footer{
         display: grid;
         width: unset;
         grid-template-columns: auto auto;
+    }
+
+    footer{
+        background-color: transparent;
+        flex: auto;
+        margin-left: unset;
+        padding: 10px;
+        text-align: end;
     }
 }
