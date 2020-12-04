@@ -28,6 +28,8 @@
                
             </div>
         </main>
-        <footer></footer>
+        <footer>
+        <?php include_once("includes/footer.php") ?>
+        </footer>
     </body>
 </html>

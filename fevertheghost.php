@@ -23,15 +23,48 @@
                     <div class="text">
                         <h2>FTG Logo</h2>
                         <h4>2020</h4>
+                        <p>Logo para a banda Fever The Ghost. <br> Inspirada pelo simbolismo alquémico, pela simetria hermética e pela complexidade surrealista.
+                        
+                        
+                        </p>
                     </div>
                     <div class="gallery-4">
-                        <img src="assets/fevertheghost/Outline Filled Black.png" alt="">
+                        <img src="assets/fevertheghost/ftg2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="text">
+                        <h2></h2>
+                        <h4></h4>
+                    </div>
+                    <div class="gallery-4">
+                        <img src="assets/fevertheghost/ftg1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="text">
+                        <h2></h2>
+                        <h4></h4>
+                    </div>
+                    <div class="gallery-4">
+                        <img src="assets/fevertheghost/ftg4.jpg" alt="">
+                    </div>
+                </div> 
+                <div class="block">
+                    <div class="text">
+                        <h2></h2>
+                        <h4></h4>
+                    </div>
+                    <div class="gallery-4">
+                        <img src="assets/fevertheghost/ftg3.jpg" alt="">
                     </div>
                 </div>                
                 <br>
                 <br>            
             </div>
         </main>
-        <footer></footer>
+        <footer>
+        <?php include_once("includes/footer.php") ?>
+        </footer>
     </body>
 </html>

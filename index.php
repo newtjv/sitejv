@@ -21,6 +21,8 @@
                 <img class="logobig" src="assets/logobig2.png" alt="jvds">
             </div>           
         </main>
-        <footer></footer>
+        <footer>
+        <?php include_once("includes/footer.php") ?>
+        </footer>
     </body>
 </html>

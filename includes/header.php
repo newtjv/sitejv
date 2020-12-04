@@ -1,5 +1,9 @@
 <div class="bar">
-                <a href="index"><img class="logo"  src="assets/jvlogob.svg" alt="jvlogo"></a>
+                <div class="logos">
+                <a href="index"><img class="logo"  src="assets/rgbzlogo.svg" alt="jvlogo"></a>
+                <a href="index"><img class="logo"  src="assets/jvlogob.svg" alt="jvlogo"></a>                
+                </div>
+                
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
                   </a>
@@ -7,8 +11,10 @@
 
             <div id="menu">
                 <div class="title">
-                    <h1>João Vítor<br>A. H. dos Santos</h1>
-                    <p>Arte e Design Digital</p>
+                    <h1>RED GREEN BLUEZ</h1>
+                    <br>
+                    <p>Arte e Design Digital <br>
+                    por João Vítor A. H. dos Santos</p>
                 </div>
                 <div class="nav">
                     <a href="trabalhos">Trabalhos</a>   
