@@ -19,11 +19,29 @@
         <main>
             <div class="wrapper">
                 <h1>Projetos</h1>
-                <ul>
-                    <li><a href="redgreenbluez">Red Green Bluez</a></li>
-                    <li><a href="bauhaus">Exposição Centenária Bauhaus</a></li>
-                    <li><a href="diversascoisas">Diversas Coisas Diversas</a></li>
-                </ul>
+                <div class="block">
+                    <div class="text">
+                        <p>Projetos pessoais e contínuos</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="item">
+                            <a href="redgreenbluez"><img src="assets/teste.png" alt="">Red Green Bluez</a>
+                        </div>
+                        <div class="item">
+                            <a href="redgreenbluez"><img src="assets/teste.png" alt="">Exposição Centenária Bauhaus</a>
+                        </div>
+                        <div class="item">
+                            <a href="redgreenbluez"><img src="assets/teste.png" alt="">Diversas Coisas Diversas</a>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+
+                        
+
+                        
+                    </div>
+                </div>
                
             </div>
         </main>

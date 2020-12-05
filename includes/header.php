@@ -1,7 +1,7 @@
 <div class="bar">
                 <div class="logos">
                 <a href="index"><img class="logo"  src="assets/rgbzlogo.svg" alt="jvlogo"></a>
-                <a href="index"><img class="logo"  src="assets/jvlogob.svg" alt="jvlogo"></a>                
+                <!--<a href="index"><img class="logo"  src="assets/jvlogob.svg" alt="jvlogo"></a>-->                
                 </div>
                 
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">

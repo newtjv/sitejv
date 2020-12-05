@@ -30,11 +30,10 @@ a:hover{
 /*body*/
 
 body{
-    display: flex;
     background-color: black;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 100%;
+    height: auto;
 }
 
 /*header (sidebar) */
@@ -63,7 +62,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     height: calc(100% - 70px);
-    padding: 10px;
+    padding: 0 10px 10px 10px;
     background-color: black;
 }
 
@@ -73,6 +72,7 @@ header{
 }
 
 .logo{
+    display: block;
     margin-right: 20px;
 }
 
@@ -148,7 +148,7 @@ main {
 }
 
 main .wrapper{
-    width: 1000px;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -167,12 +167,14 @@ main li{
 
 .block{
     display: flex;
+    width: auto;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .text{
     display: block;
-    width: 200px;
+    width: 20%;
     margin-right: 20px;
 }
 
@@ -195,8 +197,9 @@ main img{
 
 .gallery-9{
     display: grid;
-    width: 800px;
+    width: 80%;
     grid-template-columns: auto auto auto;
+    flex: 1;
 }
 
 .gallery-9 img{
@@ -205,8 +208,9 @@ main img{
 
 .gallery-4{
     display: grid;
-    width: 800px;
+    width: 80%;
     grid-template-columns: auto auto;
+    flex: 1;
 }
 
 .gallery-4 img{
@@ -218,11 +222,21 @@ main img{
     grid-template-columns: auto auto;
 }
 
+.gallery-item{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    flex: 1;
+}
+
 .picsobre{
     display: block;
     width: 250px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.item{
+    padding: 10px;
 }
 
 /* Form */
@@ -288,6 +302,7 @@ footer{
     position: fixed;
     bottom: 0;
     right: 0;
+    z-index: 1;
 }
 
 footer p{
@@ -297,7 +312,7 @@ footer p{
 
 
 
-@media (max-width: 1304px) {
+@media (max-width: 1024px) {
 
     main .wrapper{
         width: auto;
@@ -305,9 +320,24 @@ footer p{
         margin-right: auto;
     }
 
+    .block{
+        display: flex;
+        flex-direction: column;
+    }
+
     .gallery-9{
         display: grid;
         grid-template-columns: auto auto auto;
+        width: auto;
+    }
+    .gallery-item{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .text{
+        width: auto;
+        margin-right: auto;
     }
 
 }
@@ -426,6 +456,11 @@ footer p{
         display: grid;
         width: unset;
         grid-template-columns: auto auto;
+    }
+
+    .gallery-item{
+        display: grid;
+        grid-template-columns: 100%;
     }
 
     footer{
