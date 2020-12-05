@@ -19,13 +19,28 @@
         <main>
             <div class="wrapper">
                 <h1>Trabalhos</h1>
-                <ul>
-                    <li><a href="risco">Risco</a></li>
-                    <li><a href="fevertheghost">Fever The Ghost</a></li>
-                    <li><a href="camba">Camba</a></li>
-                    <li><a href="atlazia">Atlazia</a></li>
-                </ul>
-               
+                <div class="block">
+                    <div class="text">
+                        <p>Trabalhos realizados para clientes</p>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="item">
+                            <a href="risco"><img src="assets/teste.png" alt="">Risco</a>
+                        </div>
+                        <div class="item">
+                            <a href="fevertheghost"><img src="assets/teste.png" alt="">Fever The Ghost</a>
+                        </div>
+                        <div class="item">
+                            <a href="camba"><img src="assets/teste.png" alt="">Camba</a>
+                        </div>
+                        <div class="item">
+                            <a href="atlazia"><img src="assets/teste.png" alt="">Atlazia</a>
+                        </div>
+                        <br>
+                        <br>
+                        <br>                        
+                    </div>
+                </div>
             </div>
         </main>
         <footer>
