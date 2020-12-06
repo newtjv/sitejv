@@ -19,7 +19,7 @@
         <main class="home">
             <div class="wrapper">
             
-                <img class="logobig" src="assets/rgbz.gif" alt="jvds">
+                <img class="logobig" src="assets/logobig2.png" alt="jvds">
                 
             </div>           
         </main>
