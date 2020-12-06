@@ -16,9 +16,11 @@
         <header>
         <?php include_once("includes/header.php") ?>            
         </header>
-        <main>
-            <div class="wrapper2">
-                <img class="logobig" src="assets/logobig2.png" alt="jvds">
+        <main class="home">
+            <div class="wrapper">
+            
+                <img class="logobig" src="assets/rgbz.gif" alt="jvds">
+                
             </div>           
         </main>
         <footer>

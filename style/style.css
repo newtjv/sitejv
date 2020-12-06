@@ -142,6 +142,16 @@ main {
     height: calc(100% - 110px);
 }
 
+.home {
+    background-color: transparent;
+    flex: 1;
+    margin-left: 300px;
+    margin-top: auto;
+    padding: 10px;
+    height: calc(100% - 110px);
+}
+
+
 .wrapper h1{
     text-align: unset;
     margin-bottom: 20px;
@@ -427,6 +437,14 @@ footer p{
         flex: 1;
         margin-left: unset;
         padding: 10px;
+    }
+
+    .home {
+        background-color: transparent;
+        flex: 1;
+        margin-left: unset;
+        padding: 10px;
+        margin-top: 70px;
     }
 
     main h1{
