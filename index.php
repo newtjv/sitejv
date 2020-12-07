@@ -17,11 +17,7 @@
         <?php include_once("includes/header.php") ?>            
         </header>
         <main class="home">
-            <div class="wrapper">
-            
-                <img class="logobig" src="assets/logobig2.png" alt="jvds">
-                
-            </div>           
+            <img src="assets/rgbz.gif" alt="jvds">          
         </main>
         <footer>
         <?php include_once("includes/footer.php") ?>

@@ -52,13 +52,13 @@
                         <h4>2017</h4>
                     </div>
                     <div class="gallery-9">
-                        <img src="assets/diversascoisas/un7.jpg" alt="">
-                        <img src="assets/diversascoisas/deux7.jpg" alt="">
-                        <img src="assets/diversascoisas/trois7.jpg" alt="">
-                        <img src="assets/diversascoisas/catre7.jpg" alt="">
-                        <img src="assets/diversascoisas/six7.jpg" alt="">
-                        <img src="assets/diversascoisas/cinq7.jpg" alt="">     
-                        <img src="assets/diversascoisas/sept7.jpg" alt="">
+                        <a href="assets/diversascoisas/un7.jpg" data-lightbox="7" data-title="un" alt="un"><img src="assets/diversascoisas/un7.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/deux7.jpg" data-lightbox="7" data-title="deux" alt="deux"><img src="assets/diversascoisas/deux7.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/trois7.jpg" data-lightbox="7" data-title="trois" alt="trois"><img src="assets/diversascoisas/trois7.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/catre7.jpg" data-lightbox="7" data-title="catre" alt="catre"><img src="assets/diversascoisas/catre7.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/six7.jpg" data-lightbox="7" data-title="cinq" alt="cinq"><img src="assets/diversascoisas/six7.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/cinq7.jpg" data-lightbox="7" data-title="six" alt="six"><img src="assets/diversascoisas/cinq7.jpg" alt=""></a>    
+                        <a href="assets/diversascoisas/sept7.jpg" data-lightbox="7" data-title="sept" alt="sept"><img src="assets/diversascoisas/sept7.jpg" alt=""></a>
                     </div>
                 </div>
                 <br>

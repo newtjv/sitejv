@@ -1,6 +1,6 @@
 <div class="bar">
                 <div class="logos">
-                <a href="index"><img class="logo"  src="assets/rgbzlogo.svg" alt="jvlogo"></a>
+                <a href="index"><img class="logo"  src="assets/rgbznew.svg" alt="jvlogo"></a>
                 <!--<a href="index"><img class="logo"  src="assets/jvlogob.svg" alt="jvlogo"></a>-->                
                 </div>
                 

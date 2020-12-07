@@ -11,13 +11,17 @@ html{
     height: 100%;
 }
 
-h1, h2, h3, h4, h5, p{
+h1, h2, h3, h4, h5, p, a{
     color: white;
+    text-decoration: none;
+    display: block;
 }
 
 a{
-    display: block;
-    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited{
     color: white;
 }
 
@@ -25,16 +29,27 @@ a:hover{
     color: blue;
 }
 
+a:active{
+    color: #000080;
+}
+
+
+
 
 
 /*body*/
 
 body{
-    background-color: black;
+    background-color:black;
     flex-wrap: wrap;
     justify-content: space-between;
     height: auto;
 }
+
+.bg-color{
+    background-color: #00ff00;
+}
+
 
 /*header (sidebar) */
 
@@ -63,7 +78,7 @@ header{
     justify-content: space-between;
     height: calc(100% - 70px);
     padding: 0 10px 10px 10px;
-    background-color: black;
+    background-color: transparent;
 }
 
 .logos{
@@ -87,9 +102,9 @@ header{
 }
 
 .title h1{
-    font-weight: 300;
+    font-weight: 700;
     font-size: 32pt;
-    -webkit-text-stroke: 3px white;
+    -webkit-text-stroke: unset;
 }
 
 /* nav */
@@ -149,6 +164,9 @@ main {
     margin-top: auto;
     padding: 10px;
     height: calc(100% - 110px);
+    display: flex;
+    justify-content: center;
+
 }
 
 
@@ -263,7 +281,7 @@ form p{
 
 input{
     display: block;
-    background-color: black;
+    background-color: transparent;
     outline: white solid 2px;
     outline-offset: -2px;
     color: white;
@@ -295,7 +313,7 @@ textarea{
     display: block;
     width: auto;
     color: white;
-    background-color: black;
+    background-color: transparent;
     outline: white solid 2px;
     outline-offset: -2px;
     text-indent: 5px;
