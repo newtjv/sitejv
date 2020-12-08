@@ -442,7 +442,7 @@ footer p{
     .links{
         display: flex;
         flex-direction: column;
-        margin-bottom: 55px;
+        margin-bottom: 90px;
     }
     
     .links a{
