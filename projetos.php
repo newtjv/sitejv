@@ -25,13 +25,13 @@
                     </div>
                     <div class="gallery-item">
                         <div class="item">
-                            <a href="redgreenbluez"><img src="assets/teste.png" alt="">Red Green Bluez</a>
+                            <a href="redgreenbluez"><img src="assets/redgreenbluez/rgbz.jpg" alt="Red Green Bluez"></a>
                         </div>
                         <div class="item">
-                            <a href="redgreenbluez"><img src="assets/teste.png" alt="">Exposição Centenária Bauhaus</a>
+                            <a href="bauhaus"><img src="assets/teste.png" alt="Exposição Centenária Bauhaus"></a>
                         </div>
                         <div class="item">
-                            <a href="redgreenbluez"><img src="assets/teste.png" alt="">Diversas Coisas Diversas</a>
+                            <a href="diversascoisas"><img src="assets/diversascoisas/dcd.jpg" alt="Diversas Coisas Diversas"></a>
                         </div>
                         <br>
                         <br>

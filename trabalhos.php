@@ -27,16 +27,19 @@
                     </div>
                     <div class="gallery-item">
                         <div class="item">
-                            <a href="risco"><img src="assets/risco/risco.jpg" alt="">Risco</a>
+                            <a href="tetrahydro"><img src="assets/tetrahydro/prancheta 7.jpg" alt="TetraHydro"></a>
                         </div>
                         <div class="item">
-                            <a href="fevertheghost"><img src="assets/teste.png" alt="">Fever The Ghost</a>
+                            <a href="risco"><img src="assets/risco/risco.jpg" alt="Risco"></a>
                         </div>
                         <div class="item">
-                            <a href="camba"><img src="assets/teste.png" alt="">Camba</a>
+                            <a href="fevertheghost"><img src="assets/fevertheghost/ftg3.jpg" alt="Fever The Ghost"></a>
                         </div>
                         <div class="item">
-                            <a href="atlazia"><img src="assets/teste.png" alt="">Atlazia</a>
+                            <a href="camba"><img src="assets/camba/camba.jpg" alt="Camba"></a>
+                        </div>
+                        <div class="item">
+                            <a href="atlazia"><img src="assets/atlazia/atlazia.jpg" alt="Atlazia"></a>
                         </div>
                         <br>
                         <br>

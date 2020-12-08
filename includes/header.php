@@ -19,6 +19,7 @@
                 <div class="nav">
                     <a href="trabalhos">Trabalhos</a>   
                     <ul class="itens">
+                        <li><a href="tetrahydro">TetraHydro</a></li>
                         <li><a href="risco">Risco</a></li>
                         <li><a href="fevertheghost">Fever The Ghost</a></li>
                         <li><a href="camba">Camba</a></li>

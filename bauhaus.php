@@ -21,6 +21,7 @@
         <main>
             <div class="wrapper">
                 <h1>Exposição Centenária Bauhaus</h1>
+                <p>Em Construção</p>
                
             </div>
         </main>
