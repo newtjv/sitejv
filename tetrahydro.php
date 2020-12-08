@@ -28,7 +28,7 @@
                     </div>
                     <div class="gallery-9">
                         <a href="assets/tetrahydro/tetrahydro logo-10.jpg" data-lightbox="TetraHydro" data-title="TetraHydro Logo" alt="th"><img src="assets/tetrahydro/tetrahydro logo-10.jpg" alt=""></a>
-                        <a href="assets/tetrahydro/prancheta 1.jpg" data-lightbox="TetraHydro" data-title="TetraHydro Logo" alt="th"><img src="assets/tetrahydro/prancheta 1.jpg" alt=""></a>
+                        <a href="assets/tetrahydro/Prancheta 1.jpg" data-lightbox="TetraHydro" data-title="TetraHydro Logo" alt="th"><img src="assets/tetrahydro/Prancheta 1.jpg" alt=""></a>
                     </div>
                 </div>
                 <br>
@@ -39,8 +39,8 @@
                         <h4></h4>
                     </div>
                     <div class="gallery-9">
-                        <a href="assets/tetrahydro/prancheta 6.jpg" data-lightbox="TetraHydro" data-title="TetraHydro Logo" alt="th"><img src="assets/tetrahydro/prancheta 6.jpg" alt=""></a>
-                        <a href="assets/tetrahydro/prancheta 4.jpg" data-lightbox="TetraHydro" data-title="TetraHydro Logo" alt="th"><img src="assets/tetrahydro/prancheta 4.jpg" alt=""></a>                  
+                        <a href="assets/tetrahydro/Prancheta 6.jpg" data-lightbox="TetraHydro" data-title="TetraHydro Logo" alt="th"><img src="assets/tetrahydro/Prancheta 6.jpg" alt=""></a>
+                        <a href="assets/tetrahydro/Prancheta 4.jpg" data-lightbox="TetraHydro" data-title="TetraHydro Logo" alt="th"><img src="assets/tetrahydro/Prancheta 4.jpg" alt=""></a>                  
                     </div>
                 </div>
                 <br>
@@ -51,7 +51,7 @@
                         <h4></h4>
                     </div>
                     <div class="gallery-9">
-                        <a href="assets/tetrahydro/prancheta 7.jpg" data-lightbox="TetraHydro" data-title="TetraHydro Logo" alt="th"><img src="assets/tetrahydro/prancheta 7.jpg" alt=""></a>                  
+                        <a href="assets/tetrahydro/Prancheta 7.jpg" data-lightbox="TetraHydro" data-title="TetraHydro Logo" alt="th"><img src="assets/tetrahydro/Prancheta 7.jpg" alt=""></a>                  
                     </div>
                 </div>
                 <br>

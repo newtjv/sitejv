@@ -32,6 +32,8 @@
                     <input class="submit" type="submit" value="Enviar">
                 </form>               
             </div>
+            <br>
+            <br>
         </main>
         <footer>
         <?php include_once("includes/footer.php") ?>

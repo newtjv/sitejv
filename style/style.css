@@ -103,8 +103,7 @@ header{
 
 .title h1{
     font-weight: 300;
-    font-size: 32pt;
-    -webkit-text-stroke: 3pt;
+    -webkit-text-stroke: 2pt;
 }
 
 /* nav */
@@ -330,7 +329,7 @@ footer{
     position: fixed;
     bottom: 0;
     right: 0;
-    z-index: 1;
+    z-index: 0;
 }
 
 footer p{
@@ -411,6 +410,8 @@ footer p{
     .title{
          margin-bottom: 20px;
     }
+
+
     
     /* nav */
     .nav {
@@ -494,16 +495,14 @@ footer p{
         grid-template-columns: auto auto;
     }
 
-    .gallery-item{
-        display: grid;
-        grid-template-columns: 100%;
-    }
+
 
     footer{
         background-color: transparent;
         flex: auto;
         margin-left: unset;
         padding: 10px;
-        text-align: end;
+        text-align: center;
+        z-index: unset;
     }
 }
