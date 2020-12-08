@@ -20,15 +20,12 @@
             <div class="wrapper">
                 <h1>Projetos</h1>
                 <div class="block">
-                    <div class="text">
-                        <p>Projetos pessoais e contínuos</p>
-                    </div>
                     <div class="gallery-item">
                         <div class="item">
                             <a href="redgreenbluez"><img src="assets/redgreenbluez/rgbz.jpg" alt="Red Green Bluez"></a>
                         </div>
                         <div class="item">
-                            <a href="bauhaus"><img src="assets/teste.png" alt="Exposição Centenária Bauhaus"></a>
+                            <a href="bauhaus"><img src="assets/bauhaus/bauhaus.jpg" alt="Exposição Centenária Bauhaus"></a>
                         </div>
                         <div class="item">
                             <a href="diversascoisas"><img src="assets/diversascoisas/dcd.jpg" alt="Diversas Coisas Diversas"></a>

@@ -29,7 +29,7 @@
                     <ul class="itens">
                         <li><a href="redgreenbluez">Red Green Bluez</a></li>
                         <li><a href="diversascoisas">Diversas Coisas Diversas</a></li>
-                        <li><a href="bauhaus">Exposição Centenária Bauhaus</a></li>
+                        <li><a href="bauhaus">Exibição Centenária Bauhaus</a></li>
                     </ul>
                 </div>
                 <ul class="links">

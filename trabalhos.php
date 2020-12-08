@@ -21,10 +21,7 @@
         <main>
             <div class="wrapper">
                 <h1>Trabalhos</h1>
-                <div class="block">
-                    <div class="text">
-                        <p>Trabalhos realizados para clientes</p>
-                    </div>
+                <div class="block">                   
                     <div class="gallery-item">
                         <div class="item">
                             <a href="tetrahydro"><img src="assets/tetrahydro/Prancheta 7.jpg" alt="TetraHydro"></a>
