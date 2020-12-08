@@ -27,7 +27,7 @@
                         <h4>2020</h4>
                     </div>
                     <div class="gallery-4">
-                        <img src="assets/atlazia/4Milenia 37T-4 (1).jpg" alt="">
+                    <a href="assets/atlazia/Millennia.jpg" data-lightbox="atlazia" data-title="Atlazia - Millenia" alt="millenia"><img src="assets/atlazia/Millennia.jpg" alt=""></a>
                     </div>
                 </div>                
                 <br>
@@ -38,7 +38,7 @@
                         <h4>2020</h4>
                     </div>
                     <div class="gallery-4">
-                        <img src="assets/atlazia/Euphorica artwrk.jpg" alt="">
+                    <a href="assets/atlazia/Euphorica.jpg" data-lightbox="atlazia" data-title="Atlazia - Euphorica" alt="euphorica"><img src="assets/atlazia/Euphorica.jpg" alt=""></a>
                     </div>
                 </div>                
                 <br>

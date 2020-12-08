@@ -27,7 +27,7 @@
                         <h4>2020</h4>
                     </div>
                     <div class="gallery-9">
-                        <img src="assets/camba/Camba-Carnival.jpg" alt="">
+                        <a href="assets/camba/Camba-Carnival.jpg" data-lightbox="camba" data-title="Camba - Carnival" alt="carnival"><img src="assets/camba/Camba-Carnival.jpg" alt=""></a>
                     </div>
                 </div>                
                 <br>
@@ -38,7 +38,7 @@
                         <h4>2020</h4>
                     </div>
                     <div class="gallery-9">
-                        <img src="assets/camba/camba - nightcrawler.jpg" alt="">
+                        <a href="assets/camba/camba-nightcrawler.jpg" data-lightbox="camba" data-title="Camba - Nightcrawler" alt="nightcrawler"><img src="assets/camba/camba-nightcrawler.jpg" alt=""></a>
                     </div>
                 </div> 
                 <br>
@@ -49,7 +49,7 @@
                         <h4>2020</h4>
                     </div>
                     <div class="gallery-9">
-                        <img src="assets/camba/Camba - Invasion.jpg" alt="">
+                        <a href="assets/camba/Camba-Invasion.jpg" data-lightbox="camba" data-title="Camba - Invasion" alt="Invasion"><img src="assets/camba/Camba-Invasion.jpg" alt=""></a>
                     </div>
                 </div> 
                 <br>
@@ -60,7 +60,7 @@
                         <h4>2020</h4>
                     </div>
                     <div class="gallery-9">
-                        <img src="assets/camba/Camba - Spiders.jpg" alt="">
+                        <a href="assets/camba/Camba-Spiders.jpg" data-lightbox="camba" data-title="Camba - Spiders" alt="Spiders"><img src="assets/camba/Camba-Spiders.jpg" alt=""></a>
                     </div>
                 </div> 
                 <br>

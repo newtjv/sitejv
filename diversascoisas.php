@@ -71,12 +71,12 @@
                         <h4>2017</h4>
                     </div>
                     <div class="gallery-9">
-                        <img src="assets/diversascoisas/mesaneon.jpg" alt="">
-                        <img src="assets/diversascoisas/uvasneon.jpg" alt="">
-                        <img src="assets/diversascoisas/estatuaneon.jpg" alt="">
-                        <img src="assets/diversascoisas/coposneon.jpg" alt="">
-                        <img src="assets/diversascoisas/passaroneon.jpg" alt="">
-                        <img src="assets/diversascoisas/pixelneon.jpg" alt="">
+                        <a href="assets/diversascoisas/mesaneon.jpg" data-lightbox="acrylic" data-title="Mesa de Centro" alt="mesa"><img src="assets/diversascoisas/mesaneon.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/uvasneon.jpg" data-lightbox="acrylic" data-title="Uvas" alt="uvas"><img src="assets/diversascoisas/uvasneon.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/estatuaneon.jpg" data-lightbox="acrylic" data-title="Estatua" alt="estatua"><img src="assets/diversascoisas/estatuaneon.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/coposneon.jpg" data-lightbox="acrylic" data-title="Copos" alt="copos"><img src="assets/diversascoisas/coposneon.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/passaroneon.jpg" data-lightbox="acrylic" data-title="Pássaro" alt="passaro"><img src="assets/diversascoisas/passaroneon.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/pixelneon.jpg" data-lightbox="acrylic" data-title="Pixel" alt="pixel"><img src="assets/diversascoisas/pixelneon.jpg" alt=""></a>
                     </div>
                 </div>
                 <br>
@@ -89,9 +89,9 @@
                         <h4>2017</h4>
                     </div>
                     <div class="gallery-9">
-                        <img src="assets/diversascoisas/Tempo.jpg" alt="">
-                        <img src="assets/diversascoisas/Diamante.jpg" alt="">
-                        <img src="assets/diversascoisas/Espelho.jpg" alt="">
+                        <a href="assets/diversascoisas/Tempo.jpg" data-lightbox="vol2" data-title="time" alt="time"><img src="assets/diversascoisas/Tempo.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/Diamante.jpg" data-lightbox="vol2" data-title="Diamante" alt="diamante"><img src="assets/diversascoisas/Diamante.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/Espelho.jpg" data-lightbox="vol2" data-title="Espelho" alt="espelho"><img src="assets/diversascoisas/Espelho.jpg" alt=""></a>
     
                     </div>
                 </div>
@@ -105,12 +105,12 @@
                         <h4>2015</h4>
                     </div>
                     <div class="gallery-9">
-                        <img src="assets/diversascoisas/vaso de frutas.jpg" alt=""></a>    
-                        <img src="assets/diversascoisas/ceusolemar.jpg" alt="">
-                        <img src="assets/diversascoisas/girassol.jpg" alt="">
-                        <img src="assets/diversascoisas/dichirico.jpg" alt="">
-                        <img src="assets/diversascoisas/pescadores.jpg" alt="">
-                        <img src="assets/diversascoisas/vidro.jpg" alt="">
+                        <a href="assets/diversascoisas/vasodefrutas.jpg" data-lightbox="vol1" data-title="Vaso de Frutas" alt="vaso"><img src="assets/diversascoisas/vasodefrutas.jpg" alt=""></a>    
+                        <a href="assets/diversascoisas/ceusolemar.jpg" data-lightbox="vol1" data-title="Ceu Sol e Mar" alt="ceusolmar"><img src="assets/diversascoisas/ceusolemar.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/girassol.jpg" data-lightbox="vol1" data-title="Girassol" alt="girassol"><img src="assets/diversascoisas/girassol.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/dichirico.jpg" data-lightbox="vol1" data-title="Hector e Andromaca" alt="dichirico"><img src="assets/diversascoisas/dichirico.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/pescadores.jpg" data-lightbox="vol1" data-title="Pescadores" alt="pescadores"><img src="assets/diversascoisas/pescadores.jpg" alt=""></a>
+                        <a href="assets/diversascoisas/vidro.jpg" data-lightbox="vol1" data-title="Vidro" alt="vidro"><img src="assets/diversascoisas/vidro.jpg" alt=""></a>
                     </div>
                 </div>
                 <br>

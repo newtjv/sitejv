@@ -23,11 +23,26 @@
                 <h1>Risco</h1>
                 <div class="block">
                     <div class="text">
+                        <h2>O Mar Está Para Peixe</h2>
+                        <h4>2020</h4>
+                    </div>
+                    <div class="gallery-9">
+                        <a href="assets/risco/omepp.jpg" data-lightbox="Risco" data-title="Risco - O Mar Está Para Peixe" alt="omepp"><img src="assets/risco/omepp.jpg" alt=""></a>
+                        <a href="assets/risco/omepp2.jpg" data-lightbox="Risco" data-title="Risco - O Mar Está Para Peixe" alt="omepp"><img src="assets/risco/omepp2.jpg" alt=""></a>
+
+                    </div>
+                </div>
+                <br>
+                <br> 
+                <div class="block">
+                    <div class="text">
                         <h2>Vitamina C</h2>
                         <h4>2020</h4>
                     </div>
                     <div class="gallery-9">
-                        <img src="assets/risco/VitaminaC-social.jpg" alt="">
+                        <a href="assets/risco/VitaminaC-social.jpg" data-lightbox="Risco" data-title="Risco - Vitamina C" alt="vitaminac"><img src="assets/risco/VitaminaC-social.jpg" alt=""></a>
+                        <a href="assets/risco/RiscoVitaminaC.jpg" data-lightbox="Risco" data-title="Risco - Vitamina C" alt="vitaminac"><img src="assets/risco/RiscoVitaminaC.jpg" alt=""></a>
+
                     </div>
                 </div>                
                 <br>

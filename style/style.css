@@ -102,9 +102,9 @@ header{
 }
 
 .title h1{
-    font-weight: 700;
+    font-weight: 300;
     font-size: 32pt;
-    -webkit-text-stroke: unset;
+    -webkit-text-stroke: 3pt;
 }
 
 /* nav */

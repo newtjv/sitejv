@@ -27,7 +27,7 @@
                     </div>
                     <div class="gallery-item">
                         <div class="item">
-                            <a href="risco"><img src="assets/teste.png" alt="">Risco</a>
+                            <a href="risco"><img src="assets/risco/risco.jpg" alt="">Risco</a>
                         </div>
                         <div class="item">
                             <a href="fevertheghost"><img src="assets/teste.png" alt="">Fever The Ghost</a>
