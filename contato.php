@@ -28,7 +28,7 @@
                     <p>Nome</p> <input type="text" name="name" required>
                     <p>Email</p> <input type="email" name="email" required>
                     <p>Assunto</p> <input type="text" name="subject" required>
-                    <p>Mensagem</p><textarea name="message" rows="6" cols="25" required></textarea><br />
+                    <p>Mensagem</p><textarea name="message" rows="6" cols="25" required></textarea>
                     <input class="submit" type="submit" value="Enviar">
                 </form>               
             </div>

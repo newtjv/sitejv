@@ -18,14 +18,28 @@
         <main>
             <div class="wrapper">
             <?php 
-            $name = $_POST['name'];
-            $email = $_POST['email'];
-            $message = $_POST['message'];
-            $subject = $_POST['subject'];
-            $formcontent="From: $name \n Message: $message";
-            $recipient = "newtjvart@gmail.com";
-            $mailheader = "From: $email \r\n";
-            mail($recipient, $subject, $formcontent, $mailheader, $name, $email, $message) or die("Error!");
+                $name = $_POST['name'];
+                $visitor_email = $_POST['email'];
+                $message = $_POST['message'];
+                $subject = $_POST['subject'];
+            
+                $email_from = "$visitor_email";
+
+                $email_subject = "$subject";
+
+                $email_body = "Nome: $name\n".
+                                "Email: $visitor_email\n".
+                                    "Assunto: $email_subject\n".
+                                        "Mensagem: $message\n";
+
+                $to = "newtjvart@gmail.com";
+
+                $headers = "From: $email_from \r\n";
+
+                $headers .= "Reply-To: $visitor_email \r\n";
+            
+                mail($to,$email_subject,$email_body,$headers) or die("Error!");
+
             ?>            
             <h1>Obrigado!</h1>
             <h4>Retornarei assim que puder :)</h4>
