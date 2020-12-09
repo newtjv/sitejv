@@ -14,7 +14,6 @@
         <header>
         <?php include_once("includes/header.php") ?>            
         </header>
-
         <main>
             <div class="wrapper">
             <?php 
@@ -51,8 +50,6 @@
         <?php include_once("includes/footer.php") ?>
         </footer>
     </body>
-
-
 </html>
 
 
