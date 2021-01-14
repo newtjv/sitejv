@@ -55,7 +55,7 @@ body{
 /*header (sidebar) */
 
 header{
-    width: 300px;
+    width: 175px;
     z-index: 1;
     top: 0;
     left: 0;
@@ -161,7 +161,7 @@ header{
 main {
     background-color: transparent;
     flex: 1;
-    margin-left: 300px;
+    margin-left: 175px;
     margin-top: 70px;
     padding: 10px;
     height: calc(100% - 110px);
@@ -170,7 +170,7 @@ main {
 .home {
     background-color: transparent;
     flex: 1;
-    margin-left: 300px;
+    margin-left: 175px;
     margin-top: auto;
     padding: 10px;
     height: calc(100% - 110px);
