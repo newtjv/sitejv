@@ -12,30 +12,27 @@
             <div id="menu">
                 <div class="title">
                     <h1>RED GREEN BLUEZ</h1>
-                    <br>
-                    <p>Arte e Design Digital <br>
-                    por João Vítor A. H. dos Santos</p>
                 </div>
                 <div class="nav">
                     <a href="trabalhos">Trabalhos</a>   
-                    <ul class="itens">
+                   <!-- <ul class="itens">
                         <li><a href="tetrahydro">TetraHydro</a></li>
                         <li><a href="risco">Risco</a></li>
                         <li><a href="fevertheghost">Fever The Ghost</a></li>
                         <li><a href="camba">Camba</a></li>
                         <li><a href="atlazia">Atlazia</a></li>
-                    </ul>                   
+                    </ul>  -->                  
                     <a href="projetos">Projetos</a>
-                    <ul class="itens">
+                   <!--  <ul class="itens">
                         <li><a href="redgreenbluez">Red Green Bluez</a></li>
                         <li><a href="diversascoisas">Diversas Coisas Diversas</a></li>
                         <li><a href="bauhaus">Exibição Centenária Bauhaus</a></li>
-                    </ul>
+                    </ul> -->
+                    <a href="sobre">Sobre</a>
+                    <a href="contato">Contato</a>                  
                 </div>
-                <ul class="links">
-                    <li><a href="sobre">Sobre</a></li>
-                    <li><a href="contato">Contato</a></li>
-                    <li><a href="https://www.instagram.com/newtjvart" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                    <li><a href="https://www.behance.net/newtjvart" target="_blank" rel="noopener noreferrer">Behance</a></li>
-                </ul>
+                <div class="social">
+                    <a href="https://www.instagram.com/newtjvart" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.behance.net/newtjvart" target="_blank" rel="noopener noreferrer"><i class="fa fa-behance"></i></a>
+                </div>
             </div>
