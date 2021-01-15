@@ -16,7 +16,7 @@
                 <div class="nav">
                     <div class="trabalhos">
                         <a href="trabalhos">Trabalhos</a>
-                        <div class="side-menu">
+                        <!--<div class="side-menu">
                             <ul class="itens">
                                 <li><a href="tetrahydro">TetraHydro</a></li>
                                 <li><a href="risco">Risco</a></li>
@@ -24,17 +24,17 @@
                                 <li><a href="camba">Camba</a></li>
                                 <li><a href="atlazia">Atlazia</a></li>
                             </ul>
-                        </div>                           
+                        </div>-->                       
                     </div>
                     <div class="projetos">
                         <a href="projetos">Projetos</a>
-                        <div class="side-menu">
+                        <!--<div class="side-menu">
                             <ul class="itens">
                                 <li><a href="redgreenbluez">Red Green Bluez</a></li>
                                 <li><a href="diversascoisas">Diversas Coisas Diversas</a></li>
                                 <li><a href="bauhaus">Exibição Bauhaus</a></li>
                             </ul>
-                        </div>
+                        </div>-->
                         
                     </div>                              
                     <a href="sobre">Sobre</a>                 
