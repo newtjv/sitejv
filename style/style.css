@@ -55,11 +55,11 @@ body{
 /*header (sidebar) */
 
 header{
-    width: 175px;
+    /*width: 175px;*/
     z-index: 1;
     top: 0;
     left: 0;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     position: fixed;
     /*height: 100vh;*/
 }
@@ -118,17 +118,36 @@ header{
     font-size: 24pt;
 }
 
+.trabalhos, .projetos{
+    background-color: transparent;
+}
+
+.trabalhos:hover .side-menu{
+    display: flex;
+}
+
+.projetos:hover .side-menu{
+    display: flex;
+}
+
 .nav li a{
     font-size: 12pt;
 }
 
+.side-menu{
+    display: none;
+    background-color: tomato;
+}
+
 .itens {
-    display: flex;
+    position: relative;
     flex-direction: column;
     background-color:transparent;
-    margin-bottom: 20px;
-    list-style: none;
+    color: white;
+    margin-left: 20px;
 }
+
+
 
 
 
