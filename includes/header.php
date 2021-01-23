@@ -41,7 +41,7 @@
                 </div>
                 <div class="social">
                     <a href="contato"><i class="fas fa-envelope-square"></i></a>
-                    <a href="https://www.instagram.com/newtjvart" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.instagram.com/redgreenbluez.gfx" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram-square"></i></a>
                     <a href="https://www.behance.net/newtjvart" target="_blank" rel="noopener noreferrer"><i class="fab fa-behance-square"></i></a>
                 </div>
             </div>
