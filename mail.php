@@ -31,7 +31,7 @@
                                     "Assunto: $email_subject\n".
                                         "Mensagem: $message\n";
 
-                $to = "newtjvart@gmail.com";
+                $to = "redgreenbluez.gfx@gmail.com";
 
                 $headers = "From: $email_from \r\n";
 

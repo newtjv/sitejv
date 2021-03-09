@@ -10,9 +10,9 @@
             </div>
 
             <div id="menu">
-                <div class="title">
+                <!--<div class="title">
                     <h1>RED<br>GREEN<br>BLUEZ</h1>
-                </div>
+                </div> -->
                 <div class="nav">
                     <div class="trabalhos">
                         <a href="trabalhos">Trabalhos</a>
