@@ -25,7 +25,7 @@
                     <p><strong>What is Red Green Bluez?</strong></p>
                     
                     <p>Meu nome é João Vítor A. H. dos Santos, sou artista digital e designer gráfico, tenho 24 anos e moro no Brasil.Atualmente estudo design digital na <strong>Escola de Comunicação e Design Digital (ECDD)</strong>, faço estágio como designer na startup <strong>SQUAIR</strong> e também trabalho como freelancer de capas e logos. Além do estágio, também comecei a realizar trabalhos como freelancer, realizando meu sonho de fazer arte de capas para músicos. :)</p>
-                    <img class="picsobre" src="assets/sobre/foto.jpg" alt="jvds">
+                    <img class="picsobre" src="" alt="jvds">
                 </div>
                 <div class="bloco">
                     <p><strong>Who's behind Red Green Bluez?</strong></p>
