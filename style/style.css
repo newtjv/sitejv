@@ -294,15 +294,6 @@ main img{
     padding: 10px;
 }
 
-.bloco{
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.bloco p{
-    padding: 20px;
-}
-
 /* Form */
 
 form{

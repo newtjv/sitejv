@@ -12,7 +12,7 @@
             <div id="menu">
                 <!--<div class="title">
                     <h1>RED<br>GREEN<br>BLUEZ</h1>
-                </div> -->
+                </div>-->
                 <div class="nav">
                     <div class="trabalhos">
                         <a href="trabalhos">Trabalhos</a>
@@ -37,10 +37,10 @@
                         </div>-->
                         
                     </div>                              
-                    <a href="sobre">Sobre</a>                 
+                    <!--<a href="sobre">Sobre</a>-->                 
                 </div>
                 <div class="social">
-                    <a href="contato"><i class="fas fa-envelope-square"></i></a>
+                    <!--<a href="contato"><i class="fas fa-envelope-square"></i></a>-->
                     <a href="https://www.instagram.com/redgreenbluez.gfx" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram-square"></i></a>
                     <a href="https://www.behance.net/newtjvart" target="_blank" rel="noopener noreferrer"><i class="fab fa-behance-square"></i></a>
                 </div>
