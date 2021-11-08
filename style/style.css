@@ -90,6 +90,7 @@ header{
 .logo{
     display: block;
     margin-right: 20px;
+    height: 50px;
 }
 
 .icon{
