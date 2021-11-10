@@ -22,6 +22,9 @@
                 <div class="block">
                     <div class="gallery-item">
                         <div class="item">
+                            <a href="soundhub"><img src="assets/soundhub/soundhub.jpg" alt="Soundhub"></a>
+                        </div>
+                        <div class="item">
                             <a href="redgreenbluez"><img src="assets/redgreenbluez/rgbz.jpg" alt="Red Green Bluez"></a>
                         </div>
                         <div class="item">
